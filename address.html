@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>AddressBook</title>
+	<link rel="stylesheet" type="text/css" href="address.css">
+</head>
+
+ <body>
+
+	<div class="editSection">
+		<form id="editForm">
+			<input type="text" placeholder="name">
+			<input type="text" placeholder="phone">
+			<input type="text" placeholder="address">
+			<input type="text" placeholder="email">
+			<input type="submit">
+		</form>
+		</div>
+
+	<h1>Address Book</h1>
+
+	<section id="layout">
+		<form id="contactForm">
+			<div class="quickaddForm">
+			<label for="fullName">Full Name</label><input type="text" id="fullName" placeholder= "Elvis Udaigwe" class="formfields" required>
+			<label for="phone">Phone Number</label><input type="text" id="phone"   placeholder= "+2348164764526" class="formfields" required>
+			<label for="address">Address</label><textarea name="address" id="address" cols="20" rows="10"   placeholder= "Nddc Hostel Federal University Of Technology Owerri" class="formfields" required></textarea>
+			<label for="email">Email</label><input type="text" id="email"  placeholder="elvislogan1@gmail.com" class="formfields" required>
+			<br><br><br><br>
+			<input id="Add" type="submit" value="Submit">
+			
+		</div>
+		</form>
+		
+		<div id="myAdressBook">
+
+			<div class="contacts">
+				<div>
+					<div class= "fullName">Name: Elvis Udaigwe</div>
+					<div class= "phone">Phone: +2348164764526</div>
+					<div class= "address">Address:Nddc Hostel FUTO</div>
+					<div class= "email"> Email: elvislogan1@gmail.com</div>
+				</div>
+
+				<div id="buttons">
+			
+				<button class="edit">Edit</button>
+				<button class="delete">Delete</button>
+
+				</div>
+			</div>
+
+			<div class="contacts">
+			<div>
+				<div class= "firstname">Name: Prosper Udaigwe</div>
+				<div class= "phone">Phone: +2348164764526</div>
+				<div class= "address">Address: Nddc Hostel FUTO</div>
+				<div class= "email"> Email: elvislogan1@gmail.com</div>
+			</div>
+
+			<div id="buttons">
+			
+			<button class="edit">Edit</button>
+			<button class="delete">Delete</button>
+
+			</div>
+			</div>
+
+
+
+
+
+		</div>
+
+	</section>
+		
+		
+
+	 <div class="copyright">@Developed by Udaigwe Elvis Chisom 
+	 (CodeDecipher) 
+	 </div>
+	
+	
+
+<script src="script.js"></script>
+</body>
+</html>
